@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+/*CSS de Fondo de integrantes*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding: 30px;
+    background-color: beige;
+}
+div h2{
+    color: blue;
+}
+/*CSS de integrantes*/ 
+.fondoIntegrantes{
+    background-color:lightblue ;
+}
+.Nombre{
+    color: black;
+}
+.Conocimiento{
+    color: black;
+}
+.Hobbies{
+    color: black;
+}
+.Intereses{
+    color: black;
+}
+/*CSS de index*/
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color:#333;
+}
+nav a{
+    color: white;
+    padding: 14px;
+}
+aside{
+ flex: 30px;
+ background-color: lightblue;
+ padding: 20px;
+}
+footer{
+    padding: 20px;
+    background-color:lightsalmon;
+}  
+
+
